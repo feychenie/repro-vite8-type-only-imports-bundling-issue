@@ -1,4 +1,4 @@
-import { type SomeType } from './ShouldNotBeBundled'
+import type { SomeType } from './ShouldNotBeBundled'
 
 export function IssueComponent() {
   const test: SomeType = {
